@@ -1,1 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0e0e0e;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+.logo span {
+  color: #7f5af0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #eaeaea;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #7f5af0;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #161616, #0b0b0b);
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+.home h1 span {
+  color: #7f5af0;
+}
+.home p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #aaa;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #7f5af0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #9d89f5;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #7f5af0;
+}
+
+.about p, .contact p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+}
+.project-card h3 {
+  color: #7f5af0;
+  margin-bottom: 10px;
+}
+
+.publications ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: #ccc;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px 0;
+  color: #777;
+  margin-top: 30px;
+}
 
